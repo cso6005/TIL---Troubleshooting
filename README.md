@@ -3,7 +3,13 @@
 ### :file_folder: BACK
 
 :heavy_check_mark: TIL
+- [Spring Boot, Java] Entity ↔ DTO 변환 : 자바 코드 매핑 & ModelMapper (https://github.com/cso6005/TIL-Troubleshooting/issues/19)
+- [Spring Boot, Java] Object ↔ JSON 문자열 : ObjectMapper (https://github.com/cso6005/TIL-Troubleshooting/issues/20)
+[Spring Boot, Java] Object ↔ JSON 문자열 : Gson (https://github.com/cso6005/TIL-Troubleshooting/issues/21)
 
+- [Spring Boot] 스프링 컨테이너, Bean 등록 및 사용하기 (https://github.com/cso6005/TIL-Troubleshooting/issues/23)
+- [Spring boot] @Transactional 어노테이션 (https://github.com/cso6005/TIL-Troubleshooting/issues/22)
+- [Spring boot] @PostConstruct 어노테이션 (https://github.com/cso6005/TIL-Troubleshooting/issues/24)
 
 :heavy_check_mark: Troubleshooting 
 - [Spring boot] Spring Security 사용 시 Using generated security password 메시지가 뜨는 이유 (https://github.com/cso6005/TIL-Troubleshooting/issues/13)
@@ -34,6 +40,12 @@
 - [Kafka] 설치 및 테스트 (https://github.com/cso6005/TIL-Troubleshooting/issues/15)
 
 :heavy_check_mark: Troubleshooting
+
+----
+### :file_folder: GIT
+:heavy_check_mark: TIL
+- [GIT] 협업 정리 - git bash (https://github.com/cso6005/TIL-Troubleshooting/issues/25)
+
 
 ----
 ### :file_folder: ETC
