@@ -8,11 +8,13 @@
 [Spring Boot, Java] Object ↔ JSON 문자열 : Gson (https://github.com/cso6005/TIL-Troubleshooting/issues/21)
 
 - [Spring Boot] 스프링 컨테이너, Bean 등록 및 사용하기 (https://github.com/cso6005/TIL-Troubleshooting/issues/23)
-- [Spring boot] @Transactional 어노테이션 (https://github.com/cso6005/TIL-Troubleshooting/issues/22)
-- [Spring boot] @PostConstruct 어노테이션 (https://github.com/cso6005/TIL-Troubleshooting/issues/24)
+- [Spring Boot] @Transactional 어노테이션 (https://github.com/cso6005/TIL-Troubleshooting/issues/22)
+- [Spring Boot] @PostConstruct 어노테이션 (https://github.com/cso6005/TIL-Troubleshooting/issues/24)
+
+- [Spring Boot] Exception (https://github.com/cso6005/TIL-Troubleshooting/issues/26)
 
 :heavy_check_mark: Troubleshooting 
-- [Spring boot] Spring Security 사용 시 Using generated security password 메시지가 뜨는 이유 (https://github.com/cso6005/TIL-Troubleshooting/issues/13)
+- [Spring Boot] Spring Security 사용 시 Using generated security password 메시지가 뜨는 이유 (https://github.com/cso6005/TIL-Troubleshooting/issues/13)
 
 ----
 ### :file_folder: FRONT
