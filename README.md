@@ -30,6 +30,7 @@
  
 :heavy_check_mark: Troubleshooting
 - [React] axios.interceptors 를 사용하여 JWT 토큰 인증 관리 중 에러 (https://github.com/cso6005/TIL-Troubleshooting/issues/1)
+- [React] react router 최신버전 에러 (https://github.com/cso6005/TIL-Troubleshooting/issues/6)
 
 ----
 ### :file_folder: AWS
