@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true" scanPeriod="30 seconds"> <!-- logback 구현체가 설정을 확인하는 주기. true 스캔한다는 의미. 30초 단위로 설정 파일 스캔 -->
+  <!-- property 본문에서 쓸 변수 -->
+  <property name="moduleId" value="star_project"/><!-- moduleId는 프로젝트가 설치된 폴더명 또는 구분할 수 있는 식별자이면 됨 -->
+  <property name="type" value="BACK"/><!-- 로그파일명을 구성하는 인자. BACK spring boot 임을 구분 -->
+  <property name="logback" value="logback"/><!-- log를 저장할 최종 디렉토리명 -->
+  <property name="logdir" value="C:/SWClass/LogFiles"/> <!-- =저장할 디렉토리-->
+
+  <!-- ConsoleAppender -->
+  <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+    <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+      <level>DEBUG</level>
+    </filter>
+    <encoder>
+      <pattern>[%d{yyyy-MM-dd HH:mm:ss.SSS}] [%-5level] [%thread] %logger{30} %msg%n</pattern>
+    </encoder>
+  </appender>
+
+	<!-- RollingFileAppender : 파일에 저장 -->
+  <!-- appender : 로그 형태, 어디에 출력하리 등을 설정-->
+  <appender name="DEBUG_LOG" class="ch.qos.logback.core.rolling.RollingFileAppender"> <!-- RollingFileAppender : 여러(로그 레벨 기준으로 파일 구분) 개의 파일을 순회하며 로그 저장 -->
+    <filter class="ch.qos.logback.classic.filter.ThresholdFilter"> <!-- 지정된 임계값에 대해 임계값보다 낮은 레벨은 거부가 되는 필터링을 한다는 의미 -->
+      <level>DEBUG</level> <!-- 디버그 이상 레벨에 대한 설정. 아래 레벨은 필터링. 출력되지 않음. -->
+    </filter>
+    <file>${logdir}/${moduleId}/${logback}/debug_${type}.log</file> <!-- 파일 위치 파일 명 설정 -->
+    <append>true</append>
+    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      <fileNamePattern>${logdir}/${moduleId}/${logback}/debug_${type}.%d{yyyy-MM-dd}.gz</fileNamePattern> <!-- 압축 형식 지정 -->
+      <maxHistory>30</maxHistory> <!-- 30일 저장 -->
+    </rollingPolicy>
+    <encoder> <!-- 로그 형태 지정-->
+      <pattern>[%d{yyyy-MM-dd HH:mm:ss.SSS}] [%-5level] [%thread] %logger{30} %msg%n</pattern> 
+    </encoder>
+  </appender>
+
+  <!-- appe-->
+  <!-- <appender name="INFO_LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <filter class="ch.qos.logback.classic.filter.ThresholdFilter"> 
+      <level>INFO</level>
+    </filter>
+    <file>${logdir}/${moduleId}/${logback}/info_${type}.log</file>
+    <append>true</append>
+    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      <fileNamePattern>${logdir}/${moduleId}/${logback}/info_${type}.%d{yyyy-MM-dd}.gz</fileNamePattern>
+      <maxHistory>30</maxHistory>
+    </rollingPolicy>
+    <encoder>
+      <pattern>[%d{yyyy-MM-dd HH:mm:ss.SSS}] [%-5level] [%thread] %logger %msg%n</pattern>
+    </encoder>
+  </appender> -->
+
+  <!--
+  <appender name="WARN_LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+      <level>WARN</level>
+    </filter>
+    <file>${logdir}/${moduleId}/${logback}/warn_${type}.log</file>
+    <append>true</append>
+    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      <fileNamePattern>${logdir}/${moduleId}/${logback}/warn_${type}.%d{yyyy-MM-dd}.gz</fileNamePattern>
+      <maxHistory>30</maxHistory>
+    </rollingPolicy>
+    <encoder>
+      <pattern>[%d{yyyy-MM-dd HH:mm:ss.SSS}] [%-5level] [%thread] %logger %msg%n</pattern>
+    </encoder>
+  </appender>
+  <appender name="ERROR_LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+      <level>WARN</level>
+    </filter>
+    <file>${logdir}/${moduleId}/${logback}/error_${type}.log</file>
+    <append>true</append>
+    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      <fileNamePattern>${logdir}/${moduleId}/${logback}/error_${type}.%d{yyyy-MM-dd}.gz</fileNamePattern>
+      <maxHistory>30</maxHistory>
+    </rollingPolicy>
+    <encoder>
+      <pattern>[%d{yyyy-MM-dd HH:mm:ss.SSS}] [%-5level] [%thread] %logger %msg%n</pattern>
+    </encoder>
+  </appender>
+-->
+
+  <!-- TRACE > DEBUG > INFO > WARN > ERROR > OFF -->
+  <!-- Root Logger -->
+  <root level="INFO">  <!-- INFO 레벨 이상을 출력한다는 의미-->
+    <appender-ref ref="console" /> <!-- 위 설정한 Appender 이름을 적음. 이를 참조하여 루트레벨을 INFO 로 잡겠다는 의미이다. -->
+    <appender-ref ref="DEBUG_LOG"/>
+
+<!-- 	<appender-ref ref="INFO_LOG" />
+	<appender-ref ref="WARN_LOG" />
+	<appender-ref ref="ERROR_LOG" /> -->
+
+  </root>
+</configuration>
