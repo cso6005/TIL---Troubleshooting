@@ -11,6 +11,8 @@
 - [Spring Boot] @Transactional 어노테이션 (https://github.com/cso6005/TIL-Troubleshooting/issues/22)
 - [Spring Boot] @PostConstruct 어노테이션 (https://github.com/cso6005/TIL-Troubleshooting/issues/24)
 
+- [Spring Boot] 로그 처리 Logback (https://github.com/cso6005/TIL-Troubleshooting/issues/27)
+- [Spring Boot] 유효성 검사 & 데이터 검증 Vaildation (https://github.com/cso6005/TIL-Troubleshooting/issues/28)
 - [Spring Boot] Exception (https://github.com/cso6005/TIL-Troubleshooting/issues/26)
 
 :heavy_check_mark: Troubleshooting 
