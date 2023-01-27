@@ -14,6 +14,7 @@
 - [Spring Boot] 로그 처리 Logback (https://github.com/cso6005/TIL-Troubleshooting/issues/27)
 - [Spring Boot] 유효성 검사 & 데이터 검증 Vaildation (https://github.com/cso6005/TIL-Troubleshooting/issues/28)
 - [Spring Boot] Exception (https://github.com/cso6005/TIL-Troubleshooting/issues/26)
+- [Spring Boot] 테스트 코드 Junit TDD (https://github.com/cso6005/TIL-Troubleshooting/issues/31)
 
 :heavy_check_mark: Troubleshooting 
 - [Spring Boot] Spring Security 사용 시 Using generated security password 메시지가 뜨는 이유 (https://github.com/cso6005/TIL-Troubleshooting/issues/13)
