@@ -13,7 +13,9 @@
 
 - [Spring Boot] 로그 처리 Logback (https://github.com/cso6005/TIL-Troubleshooting/issues/27)
 - [Spring Boot] 유효성 검사 & 데이터 검증 Vaildation (https://github.com/cso6005/TIL-Troubleshooting/issues/28)
-- [Spring Boot] 예외 처리 ExceptionHandler  (https://github.com/cso6005/TIL-Troubleshooting/issues/26)
+- [Spring Boot] 예외 처리 ExceptionHandler 개념 (https://github.com/cso6005/TIL-Troubleshooting/issues/26)
+- [Spring Boot] 예외 처리 ExceptionHandler 예시 ()
+
 - [Spring Boot] 테스트 코드 Junit TDD (https://github.com/cso6005/TIL-Troubleshooting/issues/31)
 
 :heavy_check_mark: Troubleshooting 
