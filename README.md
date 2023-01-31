@@ -11,7 +11,12 @@
 - [Spring Boot] @Transactional 어노테이션 (https://github.com/cso6005/TIL-Troubleshooting/issues/22)
 - [Spring Boot] @PostConstruct 어노테이션 (https://github.com/cso6005/TIL-Troubleshooting/issues/24)
 
-- [Spring Boot] Exception (https://github.com/cso6005/TIL-Troubleshooting/issues/26)
+- [Spring Boot] 로그 처리 Logback (https://github.com/cso6005/TIL-Troubleshooting/issues/27)
+- [Spring Boot] 유효성 검사 & 데이터 검증 Vaildation (https://github.com/cso6005/TIL-Troubleshooting/issues/28)
+- [Spring Boot] 예외 처리 ExceptionHandler 개념 (https://github.com/cso6005/TIL-Troubleshooting/issues/26)
+- [Spring Boot] 예외 처리 ExceptionHandler 예시 (https://github.com/cso6005/TIL-Troubleshooting/issues/32)
+
+- [Spring Boot] 테스트 코드 Junit TDD (https://github.com/cso6005/TIL-Troubleshooting/issues/31)
 
 :heavy_check_mark: Troubleshooting 
 - [Spring Boot] Spring Security 사용 시 Using generated security password 메시지가 뜨는 이유 (https://github.com/cso6005/TIL-Troubleshooting/issues/13)
@@ -28,6 +33,7 @@
  
 :heavy_check_mark: Troubleshooting
 - [React] axios.interceptors 를 사용하여 JWT 토큰 인증 관리 중 에러 (https://github.com/cso6005/TIL-Troubleshooting/issues/1)
+- [React] react router 최신버전 에러 (https://github.com/cso6005/TIL-Troubleshooting/issues/6)
 
 ----
 ### :file_folder: AWS
