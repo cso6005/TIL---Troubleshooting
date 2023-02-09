@@ -45,7 +45,9 @@
 ----
 ### :file_folder: Kafka
 :heavy_check_mark: TIL
-- [Kafka] 설치 및 테스트 (https://github.com/cso6005/TIL-Troubleshooting/issues/15)
+- [Kafka] MQ (Message queue) 란? (https://github.com/cso6005/TIL-Troubleshooting/issues/34)
+- [Kafka] Kafka & Zookeeper 란? (https://github.com/cso6005/TIL-Troubleshooting/issues/35)
+- [Kafka] (windows) 설치 및 테스트 (https://github.com/cso6005/TIL-Troubleshooting/issues/15)
 
 :heavy_check_mark: Troubleshooting
 
