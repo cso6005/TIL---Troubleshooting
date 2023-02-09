@@ -50,7 +50,7 @@
 - [Kafka] (windows) 설치 및 테스트 (https://github.com/cso6005/TIL-Troubleshooting/issues/15)
 
 :heavy_check_mark: Troubleshooting
-
+- [Kafka] Consumer @KafkaListener 에서 Acknowledgment 에러 (https://github.com/cso6005/TIL-Troubleshooting/issues/36) 
 ----
 ### :file_folder: GIT
 :heavy_check_mark: TIL
