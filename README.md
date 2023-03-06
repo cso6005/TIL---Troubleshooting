@@ -18,7 +18,7 @@
 
 - [Spring Boot] 테스트 코드 Junit TDD (https://github.com/cso6005/TIL-Troubleshooting/issues/31)
 
-- [Spring Boot][WebSocket] 웹 소캣 개념 및 구조 #37
+- [Spring Boot][WebSocket] 웹 소캣 개념 및 구조 (https://github.com/cso6005/TIL-Troubleshooting/issues/37)
 
 :heavy_check_mark: Troubleshooting 
 - [Spring Boot] Spring Security 사용 시 Using generated security password 메시지가 뜨는 이유 (https://github.com/cso6005/TIL-Troubleshooting/issues/13)
