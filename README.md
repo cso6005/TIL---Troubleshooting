@@ -18,6 +18,10 @@
 
 - [Spring Boot] 테스트 코드 Junit TDD (https://github.com/cso6005/TIL-Troubleshooting/issues/31)
 
+- [Spring Securtiy] Spring Securtiy 기본 개념 (https://github.com/cso6005/TIL-Troubleshooting/issues/38)
+- [Spring Securtiy] Spring Securtiy 필터 (https://github.com/cso6005/TIL-Troubleshooting/issues/39)
+- [Spring Securtiy] SpringSecurity 의 인증 및 인가 보안 처리 과정 (https://github.com/cso6005/TIL-Troubleshooting/issues/40)
+
 - [Spring Boot][WebSocket] 웹 소캣 개념 및 구조 (https://github.com/cso6005/TIL-Troubleshooting/issues/37)
 
 :heavy_check_mark: Troubleshooting 
