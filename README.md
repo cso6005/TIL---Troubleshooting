@@ -3,6 +3,8 @@
 ### :file_folder: BACK
 
 :heavy_check_mark: TIL
+- [Java] new ArrayList<>() vs Arrays.asList() (https://github.com/cso6005/TIL-Troubleshooting/issues/42)
+- [Java] optional 개념 및 메소드 (https://github.com/cso6005/TIL-Troubleshooting/issues/43)
 - [Spring Boot, Java] Entity ↔ DTO 변환 : 자바 코드 매핑 & ModelMapper (https://github.com/cso6005/TIL-Troubleshooting/issues/19)
 - [Spring Boot, Java] Object ↔ JSON 문자열 : ObjectMapper (https://github.com/cso6005/TIL-Troubleshooting/issues/20)
 [Spring Boot, Java] Object ↔ JSON 문자열 : Gson (https://github.com/cso6005/TIL-Troubleshooting/issues/21)
@@ -18,15 +20,22 @@
 
 - [Spring Boot] 테스트 코드 Junit TDD (https://github.com/cso6005/TIL-Troubleshooting/issues/31)
 
+- [SpringBoot] Security Interceptor 처리 (https://github.com/cso6005/TIL-Troubleshooting/issues/46)
+
 - [Spring Securtiy] Spring Securtiy 기본 개념 (https://github.com/cso6005/TIL-Troubleshooting/issues/38)
 - [Spring Securtiy] Spring Securtiy 필터 (https://github.com/cso6005/TIL-Troubleshooting/issues/39)
 - [Spring Securtiy] SpringSecurity 의 인증 및 인가 보안 처리 과정 (https://github.com/cso6005/TIL-Troubleshooting/issues/40)
-
+- [SpringSecurity] 인증 정보 별도의 세션 저장소 Redis 에 저장하는 이유 (https://github.com/cso6005/TIL-Troubleshooting/issues/45)
+- [Spring Securtiy]
 - [Spring Boot][WebSocket] 웹 소캣 개념 및 구조 (https://github.com/cso6005/TIL-Troubleshooting/issues/37)
 
 :heavy_check_mark: Troubleshooting 
 - [Spring Boot] Spring Security 사용 시 Using generated security password 메시지가 뜨는 이유 (https://github.com/cso6005/TIL-Troubleshooting/issues/13)
 - [Spring Boot] JWT 생성 시, 알고리즘과 비밀 키 에러 (https://github.com/cso6005/TIL-Troubleshooting/issues/33)
+- [Spring Boot] spring boot starer project gradle 생성 시, 에러 (https://github.com/cso6005/TIL-Troubleshooting/issues/41)
+- [Spring Securtiy] 로그인/회원가입 요청의 경우, SecurityConfig에서 PermitAll() 설정, doFilter에서 헤더 조건문 추가 해주기 (https://github.com/cso6005/Auth_Project/issues/3)
+- [Spring Securtiy] Role 권한 지정 에러 (https://github.com/cso6005/Auth_Project/issues/1)
+
 ----
 ### :file_folder: FRONT
 
