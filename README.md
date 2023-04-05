@@ -35,7 +35,7 @@
 - [Spring Boot] spring boot starer project gradle 생성 시, 에러 (https://github.com/cso6005/TIL-Troubleshooting/issues/41)
 - [Spring Securtiy] 로그인/회원가입 요청의 경우, SecurityConfig에서 PermitAll() 설정, doFilter에서 헤더 조건문 추가 해주기 (https://github.com/cso6005/Auth_Project/issues/3)
 - [Spring Securtiy] Role 권한 지정 에러 (https://github.com/cso6005/Auth_Project/issues/1)
-
+- [Spring Securtiy] AuthenticationException에서 디테일하게 구분해서 응답 처리하고 싶다면 (https://github.com/cso6005/Auth_Project/issues/4)
 ----
 ### :file_folder: FRONT
 
