@@ -80,5 +80,5 @@
 ----
 #### :file_folder: 알고리즘
 
-[https://github.com/cso6005/Algorithm_Study/issues](https://github.com/cso6005/Algorithm_Study)
+[https://github.com/cso6005/Algorithm_Study](https://github.com/cso6005/Algorithm_Study)
 
