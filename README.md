@@ -5,6 +5,8 @@
 :heavy_check_mark: TIL
 - [Java] new ArrayList<>() vs Arrays.asList() (https://github.com/cso6005/TIL-Troubleshooting/issues/42)
 - [Java] optional 개념 및 메소드 (https://github.com/cso6005/TIL-Troubleshooting/issues/43)
+- [Java] Wrapper Class 이란 ? (https://github.com/cso6005/TIL-Troubleshooting/issues/47)
+- [Java] String 리터럴 생성 방식 VS String 객체 생성 방식 (https://github.com/cso6005/TIL-Troubleshooting/issues/48)
 - [Spring Boot, Java] Entity ↔ DTO 변환 : 자바 코드 매핑 & ModelMapper (https://github.com/cso6005/TIL-Troubleshooting/issues/19)
 - [Spring Boot, Java] Object ↔ JSON 문자열 : ObjectMapper (https://github.com/cso6005/TIL-Troubleshooting/issues/20)
 [Spring Boot, Java] Object ↔ JSON 문자열 : Gson (https://github.com/cso6005/TIL-Troubleshooting/issues/21)
@@ -29,7 +31,11 @@
 - [Spring Securtiy]
 - [Spring Boot][WebSocket] 웹 소캣 개념 및 구조 (https://github.com/cso6005/TIL-Troubleshooting/issues/37)
 
+- [SpringBoot] 프로젝트 빌드 및 실행 (https://github.com/cso6005/TIL-Troubleshooting/issues/51)
+- [인텔리제이] 초기 설정 등 (https://github.com/cso6005/TIL-Troubleshooting/issues/50)
+
 :heavy_check_mark: Troubleshooting 
+- [Spring Boot] 스프링 부트 3 버전 사용 시, 문제 해결 (https://github.com/cso6005/TIL-Troubleshooting/issues/49)
 - [Spring Boot] Spring Security 사용 시 Using generated security password 메시지가 뜨는 이유 (https://github.com/cso6005/TIL-Troubleshooting/issues/13)
 - [Spring Boot] JWT 생성 시, 알고리즘과 비밀 키 에러 (https://github.com/cso6005/TIL-Troubleshooting/issues/33)
 - [Spring Boot] spring boot starer project gradle 생성 시, 에러 (https://github.com/cso6005/TIL-Troubleshooting/issues/41)
